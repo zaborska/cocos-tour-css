@@ -1,0 +1,28 @@
+/* Contact nav */
+.contact-nav {
+  background-color: #1c1c1c;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  display: flex;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.contact-nav .social {
+  flex:1;
+  text-align: right;
+} 
+.contact-nav .contacts ul li {
+  margin-right: 15px;
+}
+.contact-nav a {
+  text-decoration: none;
+  color: white;
+}
+.contact-nav a i {
+  margin-right: 8px;
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+}
