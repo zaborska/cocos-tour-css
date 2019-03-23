@@ -20,6 +20,9 @@
   text-decoration: none;
   color: white;
 }
+.contact-nav a:hover {
+  color: #4dd7fa;
+}
 .contact-nav a i {
   margin-right: 8px;
   font-size: 15px;
