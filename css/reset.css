@@ -11,3 +11,7 @@ html,body {
 .list-inline li {
   display: inline;
 }
+
+a{
+  text-decoration: none;
+}
