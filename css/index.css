@@ -73,3 +73,18 @@
   height: 630px;
   background-size: cover;
 } 
+.slider .slider-text h2 {
+  font-family: 'Satisfy', cursive;
+  color: white;
+  font-size: 60px;
+  text-shadow: -3px 3px 8px rgba(0,0,0,.5);
+  text-align: center;
+  padding-top: 135px;
+} 
+.slider .slider-text h1 {
+  color: white;
+  font-size: 110px;
+  letter-spacing: -4px;
+  text-shadow: -3px 3px 8px rgba(0,0,0,.5);
+  text-align: center;
+}
