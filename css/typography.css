@@ -7,3 +7,14 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
+.h3{
+  font-family: 'Satisfy', cursive;
+  color: #4dd7fa;
+  font-size: 50px;
+  text-align: center;
+}
+.h2{
+  font-size: 90px;
+  letter-spacing: -4px;
+  text-align: center;
+}

@@ -120,3 +120,11 @@
 .find-tour-form input:last-of-type{
   border:0;
 }
+
+/* Destinations */
+.destinations h3 {
+  margin-top: 30px;
+}
+.destinations h2{
+  margin-top: -20px;
+}
