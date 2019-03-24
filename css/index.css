@@ -128,3 +128,18 @@
 .destinations h2{
   margin-top: -20px;
 }
+.tour{
+  border: 1px solid black;
+  width: 314px;
+  height: 235px;
+  margin: 20px;
+
+}
+.destination-tours{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1068px;
+  margin: auto;
+}
