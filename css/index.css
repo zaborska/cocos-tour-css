@@ -91,10 +91,32 @@
 
 /* form */
 .find-tour-form {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   width: 74%;
   margin: auto;
   height:78px;
   position: relative;
   top: -39px; 
+  display: flex;
+  box-shadow: 0px 3px 12px rgba(0,0,0,.3);
+}
+.find-tour-form input, .find-tour-form button{
+  flex: 1;
+  border: 0;
+
+}
+.find-tour-form button{
+  background: #4dd7fa;
+  color:white;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+.find-tour-form input{
+  font-size: 14px;
+  border-right: 1px solid #c0c0c0;
+  padding: 20px;
+}
+.find-tour-form input:last-of-type{
+  border:0;
 }
