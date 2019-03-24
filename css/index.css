@@ -88,3 +88,13 @@
   text-shadow: -3px 3px 8px rgba(0,0,0,.5);
   text-align: center;
 }
+
+/* form */
+.find-tour-form {
+  border: 1px solid gray;
+  width: 74%;
+  margin: auto;
+  height:78px;
+  position: relative;
+  top: -39px; 
+}
