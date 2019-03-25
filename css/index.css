@@ -1,3 +1,42 @@
+/* RESET DEFAULT STYLE */
+html,body,h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  padding: 0;
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.list-inline li {
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.h3{
+  font-family: 'Satisfy', cursive;
+  color: #4dd7fa;
+  font-size: 50px;
+  text-align: center;
+}
+.h2{
+  font-size: 90px;
+  letter-spacing: -4px;
+  text-align: center;
+}
+
+
+
 /* Contact nav */
 .contact-nav {
   background-color: #1c1c1c;
