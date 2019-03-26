@@ -71,7 +71,7 @@ body {
 
 
 /* MENU */
-.menu{
+.menu-logo{
   height:80px;
   line-height: 80px;
   display: flex;
@@ -83,10 +83,10 @@ body {
   color: #58330a;
   
 }
-.menu .logo img {
+.menu-logo .logo img {
   height: 80px;
 }
-.menu .logo h2{
+.menu-logo .logo h2{
   margin:0;
   font-size: 36px;
 
