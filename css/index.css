@@ -1,5 +1,5 @@
 /* RESET DEFAULT STYLE */
-html,body,h1,h2,h3,h4,h5,h6,p {
+html, body, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
 }
@@ -202,7 +202,8 @@ body {
   max-width: 1026px;
   margin: auto;
 }
-.color{
+
+.spacer{
   height: 42px;
   background: #4dd7fa;
 }
