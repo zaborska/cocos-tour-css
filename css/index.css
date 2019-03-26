@@ -38,7 +38,7 @@ body {
 
 
 /* Contact nav */
-.contact-nav {
+.contacts-socials {
   background-color: #1c1c1c;
   height: 40px;
   line-height: 40px;
@@ -48,21 +48,21 @@ body {
   padding-left: 20px;
   padding-right:20px;
 }
-.contact-nav .social {
+.contacts-socials .social {
   flex:1;
   text-align: right;
 } 
-.contact-nav .contacts ul li {
+.contacts-socials .contacts ul li {
   margin-right: 15px;
 }
-.contact-nav a {
+.contacts-socials a {
   text-decoration: none;
   color: white;
 }
-.contact-nav a:hover {
+.contacts-socials a:hover {
   color: #4dd7fa;
 }
-.contact-nav a i {
+.contacts-socials a i {
   margin-right: 8px;
   font-size: 15px;
   position: relative;
