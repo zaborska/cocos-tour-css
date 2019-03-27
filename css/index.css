@@ -23,7 +23,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
-.h3{
+.h3 {
   font-family: 'Satisfy', cursive;
   color: #4dd7fa;
   font-size: 50px;
@@ -133,7 +133,7 @@ body {
   /* border: 1px solid gray; */
   width: 74%;
   margin: auto;
-  height:78px;
+  /* height:78px; */
   position: relative;
   top: -39px; 
   display: flex;
@@ -149,26 +149,81 @@ body {
   color:white;
   font-size: 16px;
   cursor: pointer;
+  padding: 30px;
   
 }
 .find-tour-form input{
   font-size: 14px;
   border-right: 1px solid #c0c0c0;
-  padding: 20px;
+  padding: 30px;
 }
 .find-tour-form input:last-of-type{
   border:0;
 }
 
-/* Destinations */
-.destinations h3 {
+/* grid  Destinations */
+.destinations {
+  padding: 40px 0;
+}
+.destinations h2{
+  margin-top: -20px;
+} 
+
+.header-tour{
+  font-size:35px;
+  font-family: 'Satisfy', cursive;
+  margin-top:60px;
+  color:white;
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  /* grid-template-columns: 315px 315px 315px; */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-rows: 100px 100px; */
+  grid-auto-rows: 230px;
+  grid-gap: 40px;
+  max-width: 1026px;
+  margin: auto;
+ 
+}
+
+.grid .grid-tour-thailand{
+  background-image: url(../img/thailand.jpg);
+  background-size: cover;
+}
+.grid .grid-tour-dubai{
+  background-image: url(../img/dubai.jpg);
+  background-size: cover;
+}
+.grid .grid-tour-sri-lanka{
+  background-image: url(../img/sri-lanka.jpg);
+  background-size: cover;
+}
+.grid .grid-tour-dominicana{
+  background-image: url(../img/dominicana.jpg);
+  background-size: cover;
+}
+.grid .grid-tour-bali{
+  background-image: url(../img/bali.jpg);
+  background-size: cover;
+}
+.grid .grid-tour-greece{
+  background-image: url(../img/greece.jpeg);
+  background-size: cover;
+}
+
+
+/* Destinations
+/* .destinations h3 {
   margin-top: 30px;
 }
 .destinations h2{
   margin-top: -20px;
-}
-.tour{
-  border: 1px solid black;
+} */
+/* .tour{ */
+  /* border: 1px solid black;
   width: 314px;
   height: 235px;
   margin: 20px;
@@ -181,7 +236,7 @@ body {
   padding-right: 20px;
   max-width: 1068px;
   margin: auto;
-}
+} */ 
   
 /* best tours */
 .best-deals{
@@ -217,15 +272,13 @@ body {
 }
 .form-contact{
   background:  #4dd7fa;
-  width: 663px;
+  max-width: 663px;
   height: 371px;
   margin: auto;
   color: white;
   padding: 20px;
 }
 
-
-/* Footer*/
 footer {
   background-color: #212121;
   color: white;
@@ -236,3 +289,77 @@ footer {
 }
 
 
+/* tablet */
+@media (max-width:1000px) {
+  .h3 {
+    font-size: 40px;
+  }
+  .h2{
+    font-size: 50px;
+  }
+
+  .slider .slider-text h2 {
+    font-size: 40px;
+  } 
+  .slider .slider-text h1 {
+    font-size: 60px;
+  }
+
+
+  header.menu-logo {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  nav.navigation {
+    text-align: center;
+  }
+  .find-tour-form {
+    width: 95%;
+  }
+
+}
+
+/* mobile */
+@media (max-width:700px) {
+  .h3 {
+    font-size: 30px;
+  }
+  .h2{
+    font-size: 40px;
+  }
+
+  .contacts-socials {
+    display: none;
+  }
+
+
+  .slider .slider-text h2 {
+    font-size: 40px;
+  } 
+  .slider .slider-text h1 {
+    font-size: 60px;
+  }
+
+  header.menu-logo {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  header .navigation li {
+    display: block;
+  }
+
+  .find-tour-form {
+    width: 95%;
+    display: block;
+  }
+  .find-tour-form input, .find-tour-form button {
+    display: block;
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #c0c0c0;
+    box-sizing: border-box;
+  }
+}
