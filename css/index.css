@@ -237,8 +237,58 @@ body {
   max-width: 1068px;
   margin: auto;
 } */ 
-  
-/* best tours */
+
+.best-deals{
+   padding: 40px 0;
+}
+.best-deals h2{ 
+   margin-top: -20px;
+}
+.header-tour{
+  font-size:35px;
+  font-family: 'Satisfy', cursive;
+  margin-top:60px;
+  color:white;
+  text-align: center;
+}
+.grid-best-deal-tours{
+  display: grid;
+  /* grid-template-columns: 315px 315px 315px; */
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  /* grid-template-rows: 100px 100px; */
+  grid-auto-rows: 300px;
+  grid-gap: 40px;
+  max-width: 1026px;
+  margin: auto; 
+}
+.grid-best-deal-tours .paris-tour{
+  background-image: url(../img/paris.jpg);
+  background-size: cover;
+}
+.grid-best-deal-tours .venize-tour{
+  background-image: url(../img/venize.jpg);
+  background-size: cover;
+}
+.grid-best-deal-tours .istanbul-tour{
+  background-image:url(../img/stanbul.jpg);
+  background-size:cover;
+}
+.grid-best-deal-tours .amsterdam-tour{
+  background-image:url(../img/amsterdam.jpg);
+  background-size: cover;
+}
+.grid-best-deal-tours .netherlands-tour{
+  background-image:url(../img/niderlands.jpg);
+  background-size: cover;
+}
+.grid-best-deal-tours .budapest-tour{
+  background-image: url(../img/budapest.jpg);
+  background-size:cover;
+}
+
+  /*
+
+best tours
 .best-deals{
   background: #f8f8f8;
 }
@@ -262,6 +312,7 @@ body {
   height: 42px;
   background: #4dd7fa;
 }
+/*
 
 
 /* Form */
