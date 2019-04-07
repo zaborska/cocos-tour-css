@@ -5,9 +5,9 @@
     "price": 300
   },
   {
-    "photo": "../img/venice.jpg",
-    "text": "Venice",
-    "price": 280
+    "photo": "../img/netherlands.jpg",
+    "text": "Netherlands",
+    "price": 750
   },
   {
     "photo": "../img/stanbul.jpg",
@@ -20,9 +20,9 @@
     "price": 750
   },
   {
-    "photo": "../img/netherlands.jpg",
-    "text": "Netherlands",
-    "price": 750
+    "photo": "../img/venice.jpg",
+    "text": "Venice",
+    "price": 380
   },
   {
     "photo": "../img/budapest.jpg",
