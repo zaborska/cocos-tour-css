@@ -1,31 +1,31 @@
 [
   {
-    "photo": "../img/paris.jpg",
+    "photo": "./img/paris.jpg",
     "text": "Paris",
     "price": 300
   },
   {
-    "photo": "../img/netherlands.jpg",
+    "photo": "./img/netherlands.jpg",
     "text": "Netherlands",
     "price": 750
   },
   {
-    "photo": "../img/stanbul.jpg",
+    "photo": "./img/stanbul.jpg",
     "text": "Istanbul",
     "price": 350
   },
   {
-    "photo": "../img/amsterdam.jpg",
+    "photo": "./img/amsterdam.jpg",
     "text": "Amsterdam",
     "price": 750
   },
   {
-    "photo": "../img/venice.jpg",
+    "photo": "./img/venice.jpg",
     "text": "Venice",
     "price": 380
   },
   {
-    "photo": "../img/budapest.jpg",
+    "photo": "./img/budapest.jpg",
     "text": "Budapest",
     "price": 600
   }
