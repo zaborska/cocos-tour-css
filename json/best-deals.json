@@ -1,0 +1,17 @@
+[
+  {
+    "photo": "../img/paris.jpg",
+    "text": "Paris",
+    "price": 300
+  },
+  {
+    "photo": "../img/venice.jpg",
+    "text": "Venice",
+    "price": 280
+  },
+  {
+    "photo": "../img/stanbul.jpg",
+    "text": "Istanbul",
+    "price": 350
+  }
+]
