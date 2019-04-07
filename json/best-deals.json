@@ -13,5 +13,20 @@
     "photo": "../img/stanbul.jpg",
     "text": "Istanbul",
     "price": 350
+  },
+  {
+    "photo": "../img/amsterdam.jpg",
+    "text": "Amsterdam",
+    "price": 750
+  },
+  {
+    "photo": "../img/netherlands.jpg",
+    "text": "Netherlands",
+    "price": 750
+  },
+  {
+    "photo": "../img/budapest.jpg",
+    "text": "Budapest",
+    "price": 600
   }
 ]
