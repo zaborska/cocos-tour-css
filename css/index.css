@@ -106,21 +106,23 @@ body {
 
 
 /* Slider */
+.carousel-inner, .carousel-item {
+  max-height: 630px;
+}
 
-.slider {
-  background-image: url("../img/slider-img.jpg");
-  height: 630px;
-  background-size: cover;
-} 
-.slider .slider-text h2 {
+.carousel-caption {
+  top: 200px;
+}
+
+.slider-text h2 {
   font-family: 'Satisfy', cursive;
   color: white;
   font-size: 60px;
   text-shadow: -3px 3px 8px rgba(0,0,0,.5);
   text-align: center;
-  padding-top: 135px;
+  /* padding-top: 135px; */
 } 
-.slider .slider-text h1 {
+.slider-text h1 {
   color: white;
   font-size: 110px;
   letter-spacing: -4px;
@@ -298,10 +300,14 @@ footer {
     font-size: 50px;
   }
 
-  .slider .slider-text h2 {
+  .carousel-caption {
+    top: 50px;
+  }
+
+  .slider-text h2 {
     font-size: 40px;
   } 
-  .slider .slider-text h1 {
+  .slider-text h1 {
     font-size: 60px;
   }
 
@@ -329,16 +335,20 @@ footer {
     font-size: 40px;
   }
 
+  .carousel-caption {
+    top: 10px;
+  }
+
   .contacts-socials {
     display: none;
   }
 
 
-  .slider .slider-text h2 {
-    font-size: 40px;
+  .slider-text h2 {
+    font-size: 30px;
   } 
-  .slider .slider-text h1 {
-    font-size: 60px;
+  .slider-text h1 {
+    font-size: 40px;
   }
 
   header.menu-logo {

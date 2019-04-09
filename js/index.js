@@ -14,3 +14,9 @@ fetch("./json/best-deals.json")
       `;
     });
   });
+
+
+// Carousel
+$('.carousel').carousel({
+  interval: 222000
+})
