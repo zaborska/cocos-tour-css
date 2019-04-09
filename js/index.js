@@ -18,5 +18,5 @@ fetch("./json/best-deals.json")
 
 // Carousel
 $('.carousel').carousel({
-  interval: 222000
+  interval: 2000
 })
