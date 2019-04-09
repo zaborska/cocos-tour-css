@@ -267,20 +267,51 @@ body {
 }
 
 /* Form */
+
+
 .form-img{
   background-image: url(../img/forms-image.jpg);
   padding: 80px;
+  padding-left: 15px;
+  padding-right:15px;
   background-size: cover; 
 }
 .form-contact{
   background:  #4dd7fa;
-  max-width: 663px;
-  height: 371px;
   margin: auto;
   color: white;
   padding: 20px;
+  max-width: 600px;
 }
+.form-contact p{
+  margin-top:10px;
+}
+.form-group textarea{
+  margin-top: 10px;
+}
+.contact-control{
+  background-color: #83D8F8;
+  border: none;
+  color: white;
+  border-radius: 0;
+ 
+}
+.contact-control::placeholder{
+  color: white;
+}
+.contact-control:focus{
+  background-color:  #83D8F8;
+}
+.btn-send{
+  background-color: white;
+  color:black;
+  border-radius:0;
+  border:none;
+}
+.btn-send:hover{
+  background: #ffb253 ;
 
+}
 footer {
   background-color: #212121;
   color: white;
@@ -373,3 +404,4 @@ footer {
     box-sizing: border-box;
   }
 }
+
