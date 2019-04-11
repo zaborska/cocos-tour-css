@@ -302,6 +302,8 @@ body {
   background: #ffb253 ;
 
 }
+
+
 footer {
   background-color: #212121;
   color: white;
@@ -309,6 +311,22 @@ footer {
 }
 .logo-footer img{
   height: 50px;
+}
+
+footer#about-us .contact-list a {
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+}
+
+footer#about-us .contact-list a i {
+  position: relative;
+  top: 7px;
+  margin-right: 5px;
+}
+
+footer#about-us img {
+  max-width: 100%;
 }
 
 
