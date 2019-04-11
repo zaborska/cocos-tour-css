@@ -408,6 +408,11 @@ footer#about-us img {
     width: 95%;
     display: block;
   }
+
+  .add-to-cart-btn {
+    left: 0;
+  }
+
   .find-tour-form input, .find-tour-form button {
     display: block;
     width: 100%;
