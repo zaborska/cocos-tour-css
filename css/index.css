@@ -216,29 +216,6 @@ body {
 }
 
 
-/* Destinations
-/* .destinations h3 {
-  margin-top: 30px;
-}
-.destinations h2{
-  margin-top: -20px;
-} */
-/* .tour{ */
-  /* border: 1px solid black;
-  width: 314px;
-  height: 235px;
-  margin: 20px;
-
-}
-.destination-tours{
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 1068px;
-  margin: auto;
-} */ 
-
 .best-deals{
    padding: 40px 0;
    background-color: #f8f8f8;
@@ -264,9 +241,28 @@ body {
   margin: auto; 
 }
 
+.add-to-cart-btn {
+  background-color: #ff1d4d;
+  position: relative;
+  left: -15px;
+  top: 25px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+}
+
+.add-to-cart-btn div {
+  display: inline-block;
+  border-right: 1px solid white;
+  height: 17px;
+  width: 1px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /* Form */
-
-
 .form-img{
   background-image: url(../img/forms-image.jpg);
   padding: 80px;
