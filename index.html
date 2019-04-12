@@ -105,7 +105,7 @@
         <li class="nav-item">
           <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">
             <i class="fas fa-shopping-cart"></i>
-            <span class="badge badge-pill badge-danger">0</span>
+            <span class="badge badge-pill badge-danger" id="cart-count">0</span>
           </a>
         </li>
       </ul>
@@ -123,7 +123,27 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body"></div>
+        <div class="modal-body">
+          <table class="table table-hover">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody id="cart-items">
+              <!-- insert -->
+            </tbody>
+            <tfoot>
+              <tr>
+                <th></th>
+                <th>Total</th>
+                <th>$<span id="cart-total"></span></th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Buy</button>
