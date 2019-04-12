@@ -311,7 +311,6 @@ body {
 footer {
   background-color: #212121;
   color: white;
-  display: flex;
 }
 .logo-footer img{
   height: 50px;
