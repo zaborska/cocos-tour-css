@@ -32,23 +32,14 @@ function attachEventsToCartBtns() {
 }
 
 function addToCart(event) {
-  const cartCountEl = document.querySelector('#cart-count');
   const cartItemsEl = document.querySelector('#cart-items');
-  const cartTotalEl = document.querySelector('#cart-total');
   const clickedElData = event.target.dataset;
 
-  const newCount = Number(cartCountEl.innerHTML) + 1;
-  const newTotal = Number(cartTotalEl.innerHTML) + Number(clickedElData.price);
-
-  cartCountEl.innerHTML = newCount;
-
   cartItemsEl.innerHTML += `<tr>
-                <th scope="row">${newCount}</th>
                 <td>${clickedElData.text}</td>
                 <td>$${clickedElData.price}</td>
               </tr>`;
 
-  cartTotalEl.innerHTML = newTotal;
 }
 
 
