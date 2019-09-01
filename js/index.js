@@ -1,11 +1,11 @@
 const bestDealsEl = document.querySelector(".grid-best-deal-tours");
 
 fetch("./json/best-deals.json")
-  .then(function (resp) {
-    return resp.json()
+  .then(function(resp) {
+    return resp.json();
   })
-  .then(function (deals) {
-    deals.forEach(function (oneDeal) {
+  .then(function(deals) {
+    deals.forEach(function(oneDeal) {
       bestDealsEl.innerHTML += `
         <div class="paris-tour" style="background-image: url(${oneDeal.photo});background-size: cover;">
           <p class="header-tour">${oneDeal.text}</p>
@@ -24,17 +24,17 @@ fetch("./json/best-deals.json")
   });
 
 function attachEventsToCartBtns() {
-  const btns = document.querySelectorAll('.add-to-cart-btn');
+  const btns = document.querySelectorAll(".add-to-cart-btn");
 
-  btns.forEach(function (btn) {
-    btn.addEventListener('click', addToCart);
+  btns.forEach(function(btn) {
+    btn.addEventListener("click", addToCart);
   });
 }
 
 function addToCart(event) {
-  const cartCountEl = document.querySelector('#cart-count');
-  const cartItemsEl = document.querySelector('#cart-items');
-  const cartTotalEl = document.querySelector('#cart-total');
+  const cartCountEl = document.querySelector("#cart-count");
+  const cartItemsEl = document.querySelector("#cart-items");
+  const cartTotalEl = document.querySelector("#cart-total");
   const clickedElData = event.target.dataset;
 
   const newCount = Number(cartCountEl.innerHTML) + 1;
@@ -51,8 +51,7 @@ function addToCart(event) {
   cartTotalEl.innerHTML = newTotal;
 }
 
-
 // Carousel
-$('.carousel').carousel({
+$(".carousel").carousel({
   interval: 2000
-})
+});
